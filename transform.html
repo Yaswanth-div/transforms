@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 2px solid black;
+            height: 550px;
+            width: 750px;
+            padding: 50px;
+            background-image:linear-gradient(to left,green,rgb(131, 122, 122),navy);
+            font-weight:600;
+            color: white;
+            margin-left: 350px;
+            margin-top:40px;
+
+
+        }
+       .a1:checked~img{
+        Transform: none
+       }
+       .b1:checked~img{
+        Transform: rotate(10deg)
+       }
+       .c1:checked~img{
+        Transform: rotate(45deg)
+       }
+       .d1:checked~img{
+        transform: rotate(90deg)
+       }
+       .e1:checked~img{
+        transform: rotate(120deg)
+       }
+       .g1:checked~img{
+        transform: rotate(150deg)
+       }
+       .h1:checked~img{
+        transform: rotateX(100deg)
+       }
+       .i1:checked~img{
+        transform: skew(20deg,20deg)
+       }
+       .k1:checked~img{
+        transform:skewX(40deg)
+       }
+       .l1:checked~img{
+        transform:skewY(40deg);
+       }
+       .m1:checked~img{
+        transform:translate(30px,30px);
+       }
+       .s1:checked~img{
+        transform:translate(50px,50px);
+       }
+       .n1:checked~img{
+        transform: scale(2,3);
+       }
+       .o1:checked~img{
+        transform: scaleX(3);
+       }
+       .p1:checked~img{
+        transform: scaleY(2);
+       }
+       img{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: 850px;
+        top: 250px;
+       }
+       
+    </style>
+</head>
+<body style="background-color:rgb(248, 234, 236)" >
+    <div class="main">
+        
+       <input type="radio" name="action" class="a1">Transform: none<br><br>
+       <input type="radio" name="action" class="b1">Transform: rotate(10deg)<br><br>
+       <input type="radio" name="action" class="c1">Transform: rotate(45deg)<br><br>
+       <input type="radio" name="action" class="d1">transform: rotate(90deg)<br><br>
+       <input type="radio" name="action" class="e1">transform: rotate(120deg)<br><br>
+       <input type="radio" name="action" class="g1">transform: rotate(150deg)<br><br>
+       <input type="radio" name="action" class="h1">transform: rotateX(100deg)<br><br>
+       <input type="radio" name="action" class="i1">transform: skew(20deg,20deg)<br><br>
+       <input type="radio" name="action" class="k1">transform: skewX(40deg)<br><br>
+       <input type="radio" name="action" class="l1">transform: skewY(40deg)<br><br>
+       <input type="radio" name="action" class="m1">transform: translate(30px,30px)<br><br>
+       <input type="radio" name="action" class="s1">transform: translate(50px,50px)<br><br>
+       <input type="radio" name="action" class="n1">transform: scale(2,3)<br><br>
+       <input type="radio" name="action" class="o1">transform: scaleX(3)<br><br>
+       <input type="radio" name="action" class="p1">transform: scaleY(2)<br><br>
+
+       <img src="https://image.similarpng.com/very-thumbnail/2020/07/Happy-boy-cartoon-on-transparent-background-PNG.png">
+    </div>
+</body>
+</html>
